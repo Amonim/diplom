@@ -1,0 +1,644 @@
+@charset "UTF-8";
+body #footer .wrapper .frame-15 .circle, body #footer .wrapper .frame-15, body #Contacts .wrapper form .frame-17 .frame-11 .frame-9, body #Contacts .wrapper form .frame-17 .TabPicker, body #Contacts .wrapper form .frame-13 .frame-11 .frame-9, body #Contacts .wrapper form .frame-13 .TabPicker, body #Contacts .wrapper form, body #Tariffs .wrapper .Custom-Tariff .Inputs, body #Tariffs .wrapper .Tariff-List, body #About .wrapper .Main-Story, body #About .wrapper .Card-List, body .wrapper #Main .Process .Main-Process .circle, body .wrapper #Main .Process, body .wrapper #Main .Main-List .Main-Card, body .wrapper #Main .Main-Сaption .circle, body .wrapper #Main .Main-Сaption, body .wrapper #header nav {
+  display: flex;
+  align-items: center;
+}
+
+body #More .wrapper .Product-block .Product-List .Product, body #Contacts .wrapper form .frame-17, body #Contacts .wrapper form .frame-13, body #Tariffs .wrapper .Custom-Tariff .Inputs .Input, body #Tariffs .wrapper .Custom-Tariff, body #Tariffs .wrapper .Tariff-List .tariff-card, body #About .wrapper .Main-Story .Story-Card .Story-Item, body #About .wrapper .Main-Story .Story-Card, body #About .wrapper .Card-List .Card-Statistics, body .wrapper #Main .Process .Main-Process, body .wrapper #Main .Main-List {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn.Buttons {
+  border: 1px solid #333333;
+  color: #333333;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.btn.Buttons:hover {
+  border: 1px solid #FFC702;
+  color: #FFC702;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+  color: #333333;
+  cursor: pointer;
+  border: 1px solid #FFC702;
+}
+.btn.Buttons:active {
+  scale: 0.99;
+}
+
+.btn.Main {
+  border: 1px solid #FAFAFA;
+  color: #FAFAFA;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.btn.Main:hover {
+  border: 1px solid #333333;
+  color: #333333;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+  color: #333333;
+  cursor: pointer;
+  border: 1px solid #333333;
+}
+.btn.Main:active {
+  scale: 0.99;
+}
+
+.btn.Dark {
+  border: 1px solid #FAFAFA;
+  color: #FAFAFA;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.btn.Dark:hover {
+  border: 1px solid #FAFAFA;
+  color: #FAFAFA;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+  color: #333333;
+  cursor: pointer;
+  border: 1px solid #FAFAFA;
+}
+.btn.Dark:active {
+  scale: 0.99;
+}
+
+.btn.Inverse {
+  border: 1px solid #FAFAFA;
+  color: #FAFAFA;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.btn.Inverse:hover {
+  border: 1px solid #333333;
+  color: #333333;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+  background-color: transparent;
+  transition: 0.2s;
+  width: 60%;
+  text-transform: capitalize;
+  border-radius: 5px;
+  color: #333333;
+  cursor: pointer;
+  border: 1px solid #333333;
+}
+.btn.Inverse:active {
+  scale: 0.99;
+}
+
+#app {
+  width: 100%;
+}
+
+body {
+  flex-direction: column;
+}
+body .wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+body .wrapper #header {
+  margin-top: 23px;
+}
+body .wrapper #header nav {
+  justify-content: space-between;
+}
+body .wrapper #header nav a {
+  color: #8B8B8B;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 21.5px;
+  transition: 0.4s;
+  border-bottom: 3px solid transparent;
+}
+body .wrapper #header nav a:hover {
+  color: #333333;
+  border-bottom: 3px solid #00CA69;
+}
+body .wrapper #Main .Main-Сaption {
+  margin-top: 45px;
+  background-color: #00CA69;
+  flex-direction: column;
+  padding: 25px 25px 50px;
+  gap: 20px;
+  border-radius: 10px;
+}
+body .wrapper #Main .Main-Сaption .circle {
+  background-color: #FAFAFA;
+  padding: 35px;
+  border-radius: 100%;
+  justify-content: center;
+}
+body .wrapper #Main .Main-Сaption .circle h4 {
+  position: absolute;
+  font-size: 13px;
+}
+body .wrapper #Main .Main-Сaption h1 {
+  width: 80%;
+  text-align: center;
+  color: #FAFAFA;
+}
+body .wrapper #Main .Main-List {
+  margin-top: 30px;
+  gap: 15px;
+}
+body .wrapper #Main .Main-List .Main-Card {
+  width: 100%;
+  border: 1px solid #8B8B8B;
+  color: #8B8B8B;
+  justify-content: center;
+  padding: 20px 0;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+body .wrapper #Main .Main-List .Main-Card:hover {
+  background-color: #A93DFF;
+  cursor: pointer;
+  color: #FAFAFA;
+}
+body .wrapper #Main .text-process {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333333;
+  text-transform: uppercase;
+}
+body .wrapper #Main .Process {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+body .wrapper #Main .Process .Main-Process {
+  height: 100%;
+  width: 29%;
+  padding: 18px 0px;
+  gap: 10px;
+  background-color: #333333;
+  border-radius: 10px;
+  color: #FAFAFA;
+}
+body .wrapper #Main .Process .Main-Process:last-child {
+  padding-bottom: 30px;
+}
+body .wrapper #Main .Process .Main-Process .circle {
+  background-color: #FAFAFA;
+  padding: 20px;
+  border-radius: 100%;
+  justify-content: center;
+}
+body .wrapper #Main .Process .Main-Process .circle h4 {
+  position: absolute;
+  color: #333333;
+}
+body .wrapper #Main .Process .Main-Process p {
+  text-align: center;
+  width: 90%;
+}
+body #About {
+  margin-top: 70px;
+}
+body #About .container {
+  background-color: #00CA69;
+}
+body #About .container h1 {
+  padding: 20px;
+  text-align: center;
+  color: #FAFAFA;
+}
+body #About .wrapper p {
+  margin-top: 30px;
+  text-align: center;
+}
+body #About .wrapper .Card-List {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+body #About .wrapper .Card-List .Card-Statistics {
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+  border: 3px solid #FAFAFA;
+  width: 23%;
+}
+body #About .wrapper .our-way {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+body #About .wrapper .Main-Story {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+body #About .wrapper .Main-Story .Story-Card {
+  color: #00CA69;
+  gap: 50px;
+}
+body #About .wrapper .Main-Story .Story-Card .rectangle {
+  background-color: #00CA69;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+body #About .wrapper .Main-Story .Story-Card:last-child {
+  color: #333333;
+}
+body #About .wrapper .Main-Story .Story-Card:last-child .rectangle {
+  background-color: #333333;
+}
+body #About .wrapper .Main-Story .Story-Card .Story-Item {
+  gap: 10px;
+  justify-content: center;
+}
+body #About .wrapper .Main-Story .Story-Card .Story-Item h2:first-child {
+  color: #FAFAFA;
+}
+body #About .wrapper .Main-Story .Story-Card .Story-Item p {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+}
+body #Tariffs {
+  margin-top: 80px;
+}
+body #Tariffs .container {
+  background-color: #A93DFF;
+}
+body #Tariffs .container h1 {
+  padding: 20px;
+  text-align: center;
+  color: #FAFAFA;
+  transition: 0.4s;
+}
+body #Tariffs .wrapper {
+  margin-top: 50px;
+}
+body #Tariffs .wrapper .Tariff-List {
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+body #Tariffs .wrapper .Tariff-List .Tariff-Title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body #Tariffs .wrapper .Tariff-List .Tariff-Title .line {
+  border-bottom: 1px solid #D4D4D4;
+  padding: 0px 0px 10px 0;
+}
+body #Tariffs .wrapper .Tariff-List .tariff-card {
+  width: 20%;
+  gap: 20px;
+}
+body #Tariffs .wrapper .Tariff-List .tariff-card .box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #00CA69;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+  color: #FAFAFA;
+}
+body #Tariffs .wrapper .Tariff-List .tariff-card .box h3 {
+  color: #FAFAFA;
+}
+body #Tariffs .wrapper .Tariff-List .tariff-card .p-line {
+  width: 100%;
+  border-bottom: 1px solid #D4D4D4;
+  padding: 0px 0px 10px 0;
+  display: flex;
+  justify-content: center;
+}
+body #Tariffs .wrapper .Tariff-List .tariff-card .btn {
+  background-color: #FFC702;
+  border: none;
+}
+body #Tariffs .wrapper .Tariff-List p, body #Tariffs .wrapper .Tariff-List h3 {
+  color: #333333;
+}
+body #Tariffs .wrapper .Custom-Tariff {
+  margin-top: 50px;
+  background-color: #00CA69;
+  justify-content: center;
+  padding: 30px;
+  gap: 40px;
+  color: #FAFAFA;
+}
+body #Tariffs .wrapper .Custom-Tariff .Inputs {
+  justify-content: space-between;
+  gap: 111px;
+  width: 100%;
+}
+body #Tariffs .wrapper .Custom-Tariff .Inputs .Input {
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+body #Tariffs .wrapper .Custom-Tariff .Inputs .Input p {
+  text-align: center;
+  font-size: 18px;
+}
+body #Tariffs .wrapper .Custom-Tariff .Inputs .Input input {
+  border: none;
+  background-color: #00CA69;
+  border-bottom: 1px solid #FAFAFA;
+  width: 100%;
+  text-align: center;
+  background: none;
+  outline: none;
+  padding: 7px 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FAFAFA;
+}
+body #Tariffs .wrapper .Custom-Tariff .btn {
+  width: 29%;
+}
+body #Tariffs .wrapper .info-title {
+  margin-top: 30px;
+}
+body #Contacts {
+  margin-top: 70px;
+}
+body #Contacts .container {
+  background-color: #333333;
+}
+body #Contacts .container h1 {
+  padding: 20px;
+  text-align: center;
+  color: #FAFAFA;
+}
+body #Contacts .wrapper #BeatCup {
+  margin-top: 50px;
+}
+body #Contacts .wrapper form {
+  margin-top: 50px;
+  justify-content: center;
+}
+body #Contacts .wrapper form .active {
+  display: none;
+}
+body #Contacts .wrapper form .frame-13 {
+  width: 440px;
+  padding: 20px 0;
+  gap: 20px;
+  justify-content: center;
+  border: 1px solid #333333;
+  border-radius: 20px;
+}
+body #Contacts .wrapper form .frame-13 p {
+  color: #333333;
+}
+body #Contacts .wrapper form .frame-13 .TabPicker {
+  width: 94%;
+}
+body #Contacts .wrapper form .frame-13 .TabPicker .email {
+  border: none;
+  border-bottom: 1px solid #FF5C16;
+  background-color: transparent;
+  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FF5C16;
+}
+body #Contacts .wrapper form .frame-13 .TabPicker .tg {
+  border: none;
+  border-bottom: 1px solid #D4D4D4;
+  background-color: transparent;
+  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #D4D4D4;
+}
+body #Contacts .wrapper form .frame-13 .frame-11 {
+  display: flex;
+  width: 94%;
+}
+body #Contacts .wrapper form .frame-13 .frame-11 .frame-9 {
+  background-color: #333333;
+  border-radius: 10px 0px 0px 10px;
+  justify-content: center;
+  width: 10%;
+}
+body #Contacts .wrapper form .frame-13 .frame-11 .frame-10 {
+  width: 90%;
+}
+body #Contacts .wrapper form .frame-13 .frame-11 .frame-10 input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  outline: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+body #Contacts .wrapper form .frame-13 .Chat {
+  width: 95%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 96px 70px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #8B8B8B;
+}
+body #Contacts .wrapper form .frame-13 .btn {
+  width: 95%;
+  background-color: #FFC702;
+}
+body #Contacts .wrapper form .frame-17 {
+  width: 440px;
+  padding: 20px 0;
+  gap: 20px;
+  justify-content: center;
+  border: 1px solid #333333;
+  border-radius: 20px;
+}
+body #Contacts .wrapper form .frame-17 p {
+  color: #333333;
+}
+body #Contacts .wrapper form .frame-17 .TabPicker {
+  width: 94%;
+}
+body #Contacts .wrapper form .frame-17 .TabPicker .email {
+  border: none;
+  border-bottom: 1px solid #D4D4D4;
+  background-color: transparent;
+  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #D4D4D4;
+}
+body #Contacts .wrapper form .frame-17 .TabPicker .tg {
+  border: none;
+  border-bottom: 1px solid #FF5C16;
+  background-color: transparent;
+  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FF5C16;
+}
+body #Contacts .wrapper form .frame-17 .frame-11 {
+  display: flex;
+  width: 94%;
+}
+body #Contacts .wrapper form .frame-17 .frame-11 .frame-9 {
+  background-color: #333333;
+  border-radius: 10px 0px 0px 10px;
+  justify-content: center;
+  width: 10%;
+}
+body #Contacts .wrapper form .frame-17 .frame-11 .frame-10 {
+  width: 90%;
+}
+body #Contacts .wrapper form .frame-17 .frame-11 .frame-10 input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  font-weight: 500;
+  outline: none;
+  font-size: 20px;
+}
+body #Contacts .wrapper form .frame-17 .Chat {
+  width: 95%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 96px 70px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #8B8B8B;
+}
+body #Contacts .wrapper form .frame-17 .btn {
+  width: 95%;
+  background-color: #FFC702;
+}
+body #More .wrapper .Title {
+  margin-top: 100px;
+}
+body #More .wrapper .Title h1 {
+  color: #333333;
+  text-align: center;
+}
+body #More .wrapper .Product-block {
+  color: #FAFAFA;
+  display: flex;
+  margin-top: 50px;
+}
+body #More .wrapper .Product-block .Main {
+  background-color: #00CA69;
+}
+body #More .wrapper .Product-block .Dark {
+  background-color: #333333;
+}
+body #More .wrapper .Product-block .Inverse {
+  background-color: #A93DFF;
+}
+body #More .wrapper .Product-block .Product-List {
+  width: 33%;
+}
+body #More .wrapper .Product-block .Product-List .Product {
+  justify-content: center;
+  padding: 30px 0;
+  gap: 51px;
+  text-align: center;
+  transition: 0.4s;
+}
+body #More .wrapper .Product-block .Product-List .Product:hover {
+  background-color: #FF5C16;
+}
+body #More .wrapper .Product-block .Product-List .Product .btn {
+  width: 90%;
+  background-color: transparent;
+}
+body #More .wrapper .Product-block .Product-List .Product .btn:hover {
+  color: #FAFAFA;
+  border-color: #FAFAFA;
+}
+body #footer {
+  margin-top: 80px;
+  background-color: #FFC702;
+}
+body #footer .wrapper .frame-15 {
+  padding: 30px 0;
+  justify-content: space-between;
+}
+body #footer .wrapper .frame-15 nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body #footer .wrapper .frame-15 nav a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  font-size: 20px;
+}
+body #footer .wrapper .frame-15 .circle {
+  background-color: #333333;
+  padding: 35px;
+  border-radius: 100%;
+  justify-content: center;
+}
+body #footer .wrapper .frame-15 .circle h4 {
+  position: absolute;
+  color: #FAFAFA;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */
